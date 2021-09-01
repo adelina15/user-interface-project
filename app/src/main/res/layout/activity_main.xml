@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="#5c584d">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="36sp"
+        android:layout_weight="1"
+        android:fontFamily="sans-serif-light"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:padding="20dp"
+        android:text="Azkaban Coffee Bar" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="230dp"
+        android:scaleType="centerCrop"
+        android:layout_weight="2"
+        android:src="@drawable/azkaban" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-light"
+        android:padding="20dp"
+        android:textColor="@android:color/white"
+        android:textSize="24sp"
+        android:layout_weight="3"
+        android:text="In Azkaban, you will immerse yourself in a world of magic that was created by human hands. You don't need to run over the wall with a cart - one is already half stuck and stayed there forever.
+There is coffee with desserts in the coffee shop, and for those who want to have a more substantial meal - hearty pies and butter beer." />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-light"
+        android:paddingLeft="20dp"
+        android:paddingBottom="10dp"
+        android:textColor="@android:color/white"
+        android:textStyle="italic"
+        android:textSize="19sp"
+        android:layout_weight="1"
+        android:text="Address: Panfilov street, 191\nOpen hours: 08:00 - 24:00" />
+</LinearLayout>
